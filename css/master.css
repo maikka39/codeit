@@ -1,0 +1,51 @@
+/*
+html {
+  background-image: url(/img/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-clip: border-box;
+}
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  vertical-align: top;
+  font-family: monospace;
+}
+
+.sticky {
+  position: fixed;
+}
+
+.scrolltop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.scrolltop:hover {
+  width: 70px;
+  height: 70px;
+}
+
+.spacing-45px {
+  padding-bottom: 45px;
+}
+
+.placeholder {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 26px;
+  padding: 150px;
+  background: rgba(0, 0, 0, 0.44);
+}

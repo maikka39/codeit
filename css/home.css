@@ -1,0 +1,75 @@
+header {
+  padding: 0px;
+  margin: 0px;
+  background-image: url("/img/header.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 750%;
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+  padding-top: 11.5%;
+  text-shadow: 1px 1px #282828;
+}
+
+.sub-heading {
+  font-size: 450%;
+  color: white;
+  font-weight: 800;
+  margin: 0px;
+  padding: 0px;
+  text-shadow: 1px 1px #282828;
+  padding-bottom: 10%;
+}
+
+.paragraph {
+  background: #d3d3d3;
+  color: black;
+  padding: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.courses table tr td {
+  background: #ffffff;
+  border: #000000;
+  border-width: 100px;
+  color: black;
+  padding: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.courses h1 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+.classes table tr td {
+  background: #ffffff;
+  border: #000000;
+  border-width: 100px;
+  color: black;
+  padding: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.classes h1 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 46px;
+}

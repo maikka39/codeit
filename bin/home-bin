@@ -1,0 +1,51 @@
+## The about us section ##
+
+<p class="whoweare">
+      Check out our team members!
+    </p>
+    <table>
+      <tr>
+        <td>
+          <div class="whoweare-card">
+            <a href="/about/person1"><img src="/img/person1.png" alt="person1" title="Person 1" width="150" height="150"></a><br>
+            <p class="whoweare-person">
+                Person 1
+            </p>
+            <p class="whoweare-section">
+                Company Section
+            </p>
+            <p class="whoweare-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu odio eleifend, vehicula ligula vitae, molestie lectus.
+            </p>
+        </div>
+        </td>
+        <td>
+          <div class="whoweare-card">
+            <a href="/about/person2"><img src="/img/person2.png" alt="person2" title="Person 2" width="150" height="150"></a><br>
+            <p class="whoweare-person">
+                Person 2
+            </p>
+            <p class="whoweare-section">
+                Company Section
+            </p>
+            <p class="whoweare-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu odio eleifend, vehicula ligula vitae, molestie lectus.
+            </p>
+          </div>
+        </td>
+        <td>
+          <div class="whoweare-card">
+            <a href="/about/person3"><img src="/img/person3.png" alt="person3" title="Person 3" width="150" height="150"></a><br>
+            <p class="whoweare-person">
+                Person 3
+            </p>
+            <p class="whoweare-section">
+                Company Section
+            </p>
+            <p class="whoweare-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu odio eleifend, vehicula ligula vitae, molestie lectus.
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>

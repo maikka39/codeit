@@ -1,0 +1,14 @@
+.command {
+    padding: 25px;
+    margin: 10px;
+    width: 45%;
+    background: #080029;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.command-prefix {
+  color: #950cd6;
+}

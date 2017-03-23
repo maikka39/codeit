@@ -1,0 +1,64 @@
+/*
+  Navigation
+*/
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  background: white;
+  opacity: 1;
+  width: 100%;
+  text-align: right;
+  padding-top: 0px;
+  margin-top: 0px;
+  position: fixed;
+  top: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  
+}
+
+.logo {
+  float: left;
+  padding-top: 8.5px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*
+  Footer
+*/
+
+.copyright {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  background: #2c2c2c;
+  color: grey;
+  width: 100%;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.copyright-link {
+  text-decoration: none;
+  color: grey;
+}
