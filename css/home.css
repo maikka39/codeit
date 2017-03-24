@@ -10,27 +10,39 @@ header {
 }
 
 .heading {
-  font-size: 12.5vw;
+  font-size: 10vw;
+  font-family: monospace;
   color: white;
   font-weight: bold;
   margin: 0px;
   padding-top: 30vh;
-  text-shadow: 1px 1px #282828;
+  text-shadow: 1px 1px 10px #636363;
 }
 
 .sub-heading {
-  font-size: 5.5vw;
+  font-size: 5vw;
+  font-family: monospace;
   color: white;
   font-weight: 800;
   margin: 0px;
   padding: 0px;
-  text-shadow: 1px 1px #282828;
+  text-shadow: 1px 1px 10px #636363;
 }
 
-.sub-heading a img {
+.sub-heading a {
+  text-decoration: none;
   margin-top: 0.75vw;
-  width: 6vw;
-  height: auto;
+  position: relative;
+  font-weight: bold;
+  font-size: 8vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 50%;
+  border-width: 10px;
+  color: #ffffff;
+  text-shadow: 1px 1px 10px #636363;
 }
 
 .paragraph {

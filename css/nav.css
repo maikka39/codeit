@@ -8,7 +8,7 @@ ul {
 }
 
 nav {
-  background: white;
+  background: #ffffff;
   opacity: 1;
   width: 100%;
   text-align: right;
@@ -16,6 +16,10 @@ nav {
   margin-top: 0px;
   position: fixed;
   top: 0;
+}
+
+nav ul {
+  list-style: none;
 }
 
 nav ul li {
@@ -61,8 +65,6 @@ nav ul li:hover > .drop-menu li {
   font-weight: normal;
   font-family: inherit;
   padding: 15px;
-  border-color: #3b3b3b;
-  border-width: 10px;
 }
 
 .drop-menu li:last-child {
