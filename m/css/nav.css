@@ -8,7 +8,7 @@ ul {
 }
 
 nav {
-  background: white;
+  background: #ffffff;
   opacity: 1;
   width: 100%;
   text-align: right;
@@ -18,12 +18,61 @@ nav {
   top: 0;
 }
 
-nav li {
-  display: inline-block;
+nav ul li ul {
+  list-style: none;
 }
 
-nav li a {
-  
+nav ul li ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li ul li a {
+  opacity: 1;
+  color: #2c2c2c;
+  text-decoration: none;
+  font-size: 18;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: block;
+  padding: 25px 1.5vw;
+}
+
+nav ul li ul li a:hover {
+  background: #2c2c2c;
+  color: white;
+  transition-duration: 0.35s;
+}
+
+nav ul li ul li:hover > .drop-menu li {
+  display: block;
+}
+
+.drop-menu {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  padding: 0px;
+}
+
+.drop-menu li {
+  background: #2c2c2c;
+  color: #ffffff;
+  display: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: inherit;
+  padding: 15px;
+}
+
+.drop-menu li:last-child {
+  border-radius: 0px 0px 5px 5pxr;
+}
+
+.drop-menu li:hover {
+  background: #606060;
 }
 
 .logo {

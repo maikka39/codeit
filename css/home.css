@@ -31,18 +31,24 @@ header {
 
 .sub-heading a {
   text-decoration: none;
-  margin-top: 0.75vw;
-  position: relative;
-  font-weight: bold;
-  font-size: 8vh;
+  margin-top: 0.25vw;
+  font-weight: 750;
+  font-size: 4vh;
+  padding-top: 0px;
+  margin-top: 0px;
   padding-left: 10px;
   padding-right: 10px;
   border-style: solid;
   border-color: #ffffff;
-  border-radius: 50%;
-  border-width: 10px;
+  border-radius: 7.5px;
+  border-width: 4.5px;
   color: #ffffff;
   text-shadow: 1px 1px 10px #636363;
+  background: rgba(149, 149, 149, 0.33);
+}
+
+.sub-heading a:hover {
+  background: rgba(149, 149, 149, 0.66);
 }
 
 .paragraph {
