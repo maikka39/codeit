@@ -34,8 +34,13 @@ body {
 }
 
 .scrolltop:hover {
-  width: 70px;
-  height: 70px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.scrolltop a img {
+  width: 10vh;
+  height: auto;
 }
 
 .spacing-45px {

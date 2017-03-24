@@ -2,7 +2,7 @@ header {
   padding: 0px;
   margin: 0px;
   background-image: url("/img/header.jpg");
-  height: 600px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,22 +10,27 @@ header {
 }
 
 .heading {
-  font-size: 750%;
+  font-size: 12.5vw;
   color: white;
   font-weight: bold;
   margin: 0px;
-  padding-top: 11.5%;
+  padding-top: 30vh;
   text-shadow: 1px 1px #282828;
 }
 
 .sub-heading {
-  font-size: 450%;
+  font-size: 5.5vw;
   color: white;
   font-weight: 800;
   margin: 0px;
   padding: 0px;
   text-shadow: 1px 1px #282828;
-  padding-bottom: 10%;
+}
+
+.sub-heading a img {
+  margin-top: 0.75vw;
+  width: 6vw;
+  height: auto;
 }
 
 .paragraph {
