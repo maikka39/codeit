@@ -7,6 +7,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 .heading {
@@ -33,7 +34,7 @@ header {
   text-decoration: none;
   margin-top: 0.25vw;
   font-weight: 750;
-  font-size: 4vh;
+  font-size: 2.75vw;
   padding-top: 0px;
   margin-top: 0px;
   padding-left: 10px;
@@ -58,25 +59,27 @@ header {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 15px;
-  font-size: 16px;
+  font-size: 4vw;
 }
 
-.courses table tr td {
-  background: #ffffff;
-  border: #000000;
-  border-width: 100px;
-  color: black;
-  padding: 35px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 15px;
-  font-size: 16px;
+.courses {
+  text-align: center;
 }
 
 .courses h1 {
   font-family: monospace;
   font-weight: bold;
-  font-size: 46px;
+  font-size: 4vw;
+}
+
+.courses ul {
+  width: 80vw;
+}
+
+.courses ul li {
+  background: #e8e8e8;
+  list-style: none;
+  font-size: 2vw;
 }
 
 .classes table tr td {
