@@ -1,7 +1,7 @@
 header {
   padding: 0px;
   margin: 0px;
-  background-image: url("/img/header.jpg");
+  background-image: url("img/header.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
