@@ -64,6 +64,7 @@ header {
 
 .courses {
   text-align: center;
+  display: block;
 }
 
 .courses h1 {
@@ -73,29 +74,84 @@ header {
 }
 
 .courses ul {
-  width: 80vw;
+  width: 90vw;
+  display: inline-block;
+  text-align: center;
 }
 
 .courses ul li {
-  background: #e8e8e8;
+  text-decoration: none;
+  color: #000000;
+  background: #ffffff;
   list-style: none;
+  display: inline-block;
+  text-align: center;
+  width: 28%;
+  padding: 1%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.courses ul li:hover {
+  background: #f4f4f4;
+  transition: 0.5s;
+}
+
+.courses ul li strong {
+  padding: 25px;
+  margin-bottom: 50px;
   font-size: 2vw;
 }
 
-.classes table tr td {
-  background: #ffffff;
-  border: #000000;
-  border-width: 100px;
-  color: black;
-  padding: 35px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 15px;
-  font-size: 16px;
+.courses ul li p {
+  font-size: 1vw;
+}
+
+.courses-button {
+  font-size: 1vw;
+  padding: 1vw;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+}
+
+.courses-button:hover {
+  background: none;
+  color: #000000;
+}
+
+.classes {
+  text-align: center;
+  display: block;
 }
 
 .classes h1 {
   font-family: monospace;
   font-weight: bold;
-  font-size: 46px;
+  font-size: 4vw;
+}
+
+.classes ul {
+  width: 90vw;
+  display: inline-block;
+  text-align: center;
+}
+
+.classes ul li {
+  background: #ffffff;
+  list-style: none;
+  font-size: 2vw;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  padding: 1%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5%;
 }
