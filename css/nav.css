@@ -27,7 +27,7 @@ nav ul li {
   position: relative;
 }
 
-nav ul li a {
+.nav-section {
   opacity: 1;
   color: #2c2c2c;
   text-decoration: none;
@@ -38,7 +38,7 @@ nav ul li a {
   padding: 25px 1.5vw;
 }
 
-nav ul li a:hover {
+.nav-section:hover {
   background: #2c2c2c;
   color: white;
   transition-duration: 0.35s;
@@ -49,6 +49,7 @@ nav ul li:hover > .drop-menu li {
 }
 
 .drop-menu {
+  text-decoration: none;
   position: absolute;
   top: 100%;
   left: 0%;
@@ -57,6 +58,7 @@ nav ul li:hover > .drop-menu li {
 }
 
 .drop-menu li {
+  text-decoration: none;
   background: #2c2c2c;
   color: #ffffff;
   display: none;
@@ -73,6 +75,14 @@ nav ul li:hover > .drop-menu li {
 
 .drop-menu li:hover {
   background: #606060;
+}
+
+.drop-menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12;
+  font-weight: normal;
+  padding: 10px;
 }
 
 .logo {

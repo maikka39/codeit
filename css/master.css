@@ -40,11 +40,8 @@ body {
   height: auto;
 }
 
-.spacing-45px {
-  padding-bottom: 45px;
-}
-
 .placeholder {
+  margin: 0px;
   color: #ffffff;
   font-weight: bold;
   font-size: 26px;

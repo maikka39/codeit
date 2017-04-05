@@ -1,7 +1,7 @@
 header {
   padding: 0px;
   margin: 0px;
-  background-image: url("/codeit/img/header.jpg");
+  background-image: url("/codeit/img/homepagina/header.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -62,24 +62,84 @@ header {
   font-size: 4vw;
 }
 
-.courses {
+.thuis-programmeren {
   text-align: center;
   display: block;
+  padding-bottom: 40px;
 }
 
-.courses h1 {
+.thuis-programmeren a {
+  text-decoration: none;
+}
+
+.thuis-programmeren h1 {
   font-family: monospace;
   font-weight: bold;
   font-size: 4vw;
 }
 
-.courses ul {
+.thuis-programmeren ul {
+  display: inline-block;
+  width: 90vw;
+}
+
+.thuis-programmeren ul li {
+  color: #000000;
+  background: #ffffff;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  width: 28%;
+  padding: 1%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.voordelen {
+  text-decoration: none;
+}
+
+.voordelen strong {
+  padding: 25px;
+  margin-bottom: 50px;
+  font-size: 2.5vw;
+}
+
+.voordelen p {
+  font-size: 1.5vw;
+  padding: 20px;
+}
+
+.voordelen img {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.talen {
+  text-align: center;
+  display: block;
+}
+
+.talen a {
+  text-decoration: none;
+}
+
+.talen h1 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.talen ul {
   width: 90vw;
   display: inline-block;
   text-align: center;
 }
 
-.courses ul li {
+.talen ul li {
   text-decoration: none;
   color: #000000;
   background: #ffffff;
@@ -95,86 +155,23 @@ header {
   margin: 10px;
 }
 
-.courses ul li:hover {
+.talen ul li:hover {
   background: #f4f4f4;
   transition: 0.5s;
 }
 
-.courses ul li strong {
+.talen ul li strong {
   padding: 25px;
   margin-bottom: 50px;
   font-size: 2vw;
 }
 
-.courses ul li p {
+.talen ul li p {
   font-size: 1vw;
 }
 
-.courses-button {
-  font-size: 1vw;
-  padding: 1vw;
-  background: #000000;
-  color: #ffffff;
-  border-radius: 20px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px;
-}
-
-.courses-button:hover {
-  background: none;
-  color: #000000;
-}
-
-.classes {
-  text-align: center;
-  display: block;
-}
-
-.classes h1 {
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 4vw;
-}
-
-.classes ul {
-  width: 90vw;
-  display: inline-block;
-  text-align: center;
-}
-
-.classes ul li {
+.talen-button {
   text-decoration: none;
-  color: #000000;
-  background: #ffffff;
-  list-style: none;
-  display: inline-block;
-  text-align: center;
-  width: 28%;
-  padding: 1%;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 5%;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.classes ul li:hover {
-  background: #f4f4f4;
-  transition: 0.5s;
-}
-
-.classes ul li strong {
-  padding: 25px;
-  margin-bottom: 50px;
-  font-size: 2vw;
-}
-
-.classes ul li p {
-  font-size: 1vw;
-}
-
-.classes-button {
   font-size: 1vw;
   padding: 1vw;
   background: #000000;
@@ -185,7 +182,18 @@ header {
   border-width: 2px;
 }
 
-.classes-button:hover {
+.talen-button:hover {
   background: none;
   color: #000000;
+}
+
+.full-width-image {
+  margin: 0px;
+  margin-top: 40px;
+  padding: 150px;
+  background-image: url(/codeit/img/homepagina/footer.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
