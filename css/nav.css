@@ -113,8 +113,8 @@ nav ul li:hover > .drop-menu li {
   text-align: center;
   position: static;
   bottom: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .copyright-link {

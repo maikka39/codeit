@@ -21,7 +21,7 @@ header {
 }
 
 .sub-heading {
-  font-size: 5vw;
+  font-size: 4vw;
   font-family: monospace;
   color: white;
   font-weight: 800;
@@ -64,8 +64,8 @@ header {
 
 .thuis-programmeren {
   text-align: center;
-  display: block;
-  padding-bottom: 40px;
+  padding-bottom: 140px;
+  vertical-align: top;
 }
 
 .thuis-programmeren a {
@@ -122,7 +122,6 @@ header {
 
 .talen {
   text-align: center;
-  display: block;
 }
 
 .talen a {
