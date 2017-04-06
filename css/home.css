@@ -81,6 +81,7 @@ header {
 .thuis-programmeren ul {
   display: inline-block;
   width: 90vw;
+  height: 75vh;
 }
 
 .thuis-programmeren ul li {
@@ -90,6 +91,7 @@ header {
   display: inline-block;
   text-align: center;
   width: 28%;
+  height: 100%;
   padding: 1%;
   border-style: solid;
   border-color: #000000;
