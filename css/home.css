@@ -1,7 +1,7 @@
 header {
   padding: 0px;
   margin: 0px;
-  background-image: url("/codeit/img/homepagina/header.jpg");
+  background-image: url("/codeit/img/homepage/header.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -100,22 +100,22 @@ header {
   margin: 10px;
 }
 
-.voordelen {
+.pros {
   text-decoration: none;
 }
 
-.voordelen strong {
+.pros strong {
   padding: 25px;
   margin-bottom: 50px;
   font-size: 2.5vw;
 }
 
-.voordelen p {
+.pros p {
   font-size: 1.5vw;
   padding: 20px;
 }
 
-.voordelen img {
+.pros img {
   border-radius: 50%;
   margin: 20px;
 }
@@ -192,7 +192,7 @@ header {
   margin: 0px;
   margin-top: 40px;
   padding: 150px;
-  background-image: url(/codeit/img/homepagina/footer.jpg);
+  background-image: url(/codeit/img/homepage/footer.jpg);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
