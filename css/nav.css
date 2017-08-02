@@ -44,24 +44,30 @@ nav ul li {
   transition-duration: 0.35s;
 }
 
-nav ul li:hover > .drop-menu li {
-  display: block;
-}
-
 .drop-menu {
   text-decoration: none;
   position: absolute;
+  display: none;
   top: 100%;
   left: 0%;
   width: 100%;
   padding: 0px;
 }
 
+.drop-menu:hover {
+  display: block;
+}
+
+.nav-bar ul li:hover > .nav-section {
+  background: #2c2c2c;
+  color: #ffffff;
+}
+
 .drop-menu li {
+  display: block;
   text-decoration: none;
   background: #2c2c2c;
   color: #ffffff;
-  display: none;
   text-align: center;
   font-size: 14px;
   font-weight: normal;
@@ -70,7 +76,7 @@ nav ul li:hover > .drop-menu li {
 }
 
 .drop-menu li:last-child {
-  border-radius: 0px 0px 5px 5pxr;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .drop-menu li:hover {
@@ -84,6 +90,14 @@ nav ul li:hover > .drop-menu li {
   font-weight: normal;
   padding: 10px;
 }
+
+.nav-section:hover + .drop-menu {
+  display: block;
+}
+
+/*nav ul li:hover > .drop-menu li {
+  display: block;
+}*/
 
 .logo {
   float: left;

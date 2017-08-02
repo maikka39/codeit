@@ -1,7 +1,7 @@
 header {
   padding: 0px;
   margin: 0px;
-  background-image: url("/codeit/img/homepage/header.jpg");
+  background-image: url("../img/homepage/header.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -62,29 +62,29 @@ header {
   font-size: 4vw;
 }
 
-.thuis-programmeren {
+.programming-at-home {
   text-align: center;
   padding-bottom: 140px;
   vertical-align: top;
 }
 
-.thuis-programmeren a {
+.programming-at-home a {
   text-decoration: none;
 }
 
-.thuis-programmeren h1 {
+.programming-at-home h1 {
   font-family: monospace;
   font-weight: bold;
   font-size: 4vw;
 }
 
-.thuis-programmeren ul {
+.programming-at-home ul {
   display: inline-block;
   width: 90vw;
   height: 75vh;
 }
 
-.thuis-programmeren ul li {
+.programming-at-home ul li {
   color: #000000;
   background: #ffffff;
   list-style: none;
@@ -120,27 +120,27 @@ header {
   margin: 20px;
 }
 
-.talen {
+.languages {
   text-align: center;
 }
 
-.talen a {
+.languages a {
   text-decoration: none;
 }
 
-.talen h1 {
+.languages h1 {
   font-family: monospace;
   font-weight: bold;
   font-size: 4vw;
 }
 
-.talen ul {
+.languages ul {
   width: 90vw;
   display: inline-block;
   text-align: center;
 }
 
-.talen ul li {
+.languages ul li {
   text-decoration: none;
   color: #000000;
   background: #ffffff;
@@ -156,22 +156,22 @@ header {
   margin: 10px;
 }
 
-.talen ul li:hover {
+.languages ul li:hover {
   background: #f4f4f4;
   transition: 0.5s;
 }
 
-.talen ul li strong {
+.languages ul li strong {
   padding: 25px;
   margin-bottom: 50px;
   font-size: 2vw;
 }
 
-.talen ul li p {
+.languages ul li p {
   font-size: 1vw;
 }
 
-.talen-button {
+.languages-button {
   text-decoration: none;
   font-size: 1vw;
   padding: 1vw;
@@ -183,7 +183,7 @@ header {
   border-width: 2px;
 }
 
-.talen-button:hover {
+.languages-button:hover {
   background: none;
   color: #000000;
 }
@@ -192,9 +192,8 @@ header {
   margin: 0px;
   margin-top: 40px;
   padding: 150px;
-  background-image: url(/codeit/img/homepage/footer.jpg);
-  background-attachment: fixed;
-  background-position: top;
+  background-image: url(../img/homepage/footer.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
