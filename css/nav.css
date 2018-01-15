@@ -1,5 +1,5 @@
 /*
-  Navigation
+  Navigation bar
 */
 
 ul {
@@ -15,7 +15,11 @@ nav {
   padding-top: 0px;
   margin-top: 0px;
   position: fixed;
+  position: sticky;
   top: 0;
+  box-shadow: 0px 2.5px 20px #c6c6c6;
+  height: 68px;
+  z-index: 100;
 }
 
 nav ul {
@@ -27,25 +31,102 @@ nav ul li {
   position: relative;
 }
 
-.nav-section {
-  opacity: 1;
+.nav-bar {
+  list-style: none;
+}
+
+.nav-item {
   color: #2c2c2c;
   text-decoration: none;
   font-size: 18;
   font-family: sans-serif;
   font-weight: bold;
-  display: block;
+  display: inline-block;
   padding: 25px 1.5vw;
+  transition-duration: 0.25s;
+  cursor: pointer;
 }
 
-.nav-section:hover {
+.nav-item:hover {
   background: #2c2c2c;
   color: white;
-  transition-duration: 0.35s;
+  transition-duration: 0.25s;
+}
+
+.account-button {
+  vertical-align: middle;
+  padding: 25px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border-color: #dddddd;
+}
+
+.account-button:focus {
+  outline: 0;
+}
+
+.login-form {
+  /* height:38vh; */
+  /* width: 38vw; */
+  min-width: 36vw;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  right: 0;
+  margin: 10px;
+  display: none;
+  position: absolute;
+  text-align: left;
+}
+
+.login-form h1 {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.login-form input {
+  display: block;
+  margin: 3vh auto;
+  width: 80%;
+  height: 7vh;
+  border-radius: 10px;
+  border: 4px solid #000000;
+  background-color: #f9f9f9;
+  padding: 0 10px;
+}
+
+.login-form .loginInput:focus {
+  outline: 0;
+  background-color: #ffffff;
+}
+
+.login-form .loginButton {
+  width: 40%;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.login-form .loginButton:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/*
+  Drop-menu in the navigation bar
+*/
+
+.nav-bar ul li:hover>.nav-item {
+  background: #2c2c2c;
+  color: #ffffff;
 }
 
 .drop-menu {
-  text-decoration: none;
   position: absolute;
   display: none;
   top: 100%;
@@ -58,21 +139,10 @@ nav ul li {
   display: block;
 }
 
-.nav-bar ul li:hover > .nav-section {
-  background: #2c2c2c;
-  color: #ffffff;
-}
-
 .drop-menu li {
   display: block;
-  text-decoration: none;
   background: #2c2c2c;
-  color: #ffffff;
   text-align: center;
-  font-size: 14px;
-  font-weight: normal;
-  font-family: inherit;
-  padding: 15px;
 }
 
 .drop-menu li:last-child {
@@ -83,15 +153,17 @@ nav ul li {
   background: #606060;
 }
 
-.drop-menu li a {
+.drop-menu-item {
   color: #ffffff;
   text-decoration: none;
-  font-size: 12;
+  font-size: 12px;
   font-weight: normal;
-  padding: 10px;
+  display: inline-block;
+  padding: 15px 0px;
+  width: 100%;
 }
 
-.nav-section:hover + .drop-menu {
+.nav-item:hover+.drop-menu {
   display: block;
 }
 
@@ -106,7 +178,7 @@ nav ul li {
   padding-left: 25px;
 }
 
-.logo > a {
+.logo>a {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -117,16 +189,54 @@ nav ul li {
   Footer
 */
 
-.copyright {
+footer {
+  margin-top: 8vh;
+  background-color: #303030;
+  color: #f6f6f6;
+  text-align: center;
   padding: 0px;
   margin: 0px;
+  width: 100vw;
+  position: relative;
+}
+
+.easteregg {
+  position: relative;
+}
+
+.footer-menu {
+  position: absolute;
+  z-index: 20;
+  display: block;
+  vertical-align: top;
+  font-size: 24px;
+  width: 100%;
+  margin-top: 6vh;
+}
+
+.footer-menu ul {
+  display: inline-block;
+  list-style: none;
+  width: 15vw;
+}
+
+.footer-menu-head {
+  color: #dbdbdb;
+  font-size: 32px;
+  font-weight: 600;
+
+}
+
+.footer-menu-subhead {
+  text-transform: uppercase;
+  color: #e4e4e3;
+  font-weight: 50;
+}
+
+.copyright {
   text-decoration: none;
   background: #2c2c2c;
   color: grey;
-  width: 100%;
-  text-align: center;
-  position: static;
-  bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
 }

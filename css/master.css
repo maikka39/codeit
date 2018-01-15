@@ -1,12 +1,9 @@
-/*
-html {
-  background-image: url(codeit/img/header.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-clip: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.1s;
+  outline: 0;
 }
-*/
 
 body {
   margin: 0px;
@@ -22,29 +19,23 @@ body {
   position: fixed;
 }
 
-.scrolltop {
+.scrolltotop {
+  display: none;
+  opacity: 0;
   position: fixed;
   bottom: 0;
   right: 0;
   margin-right: 15px;
   margin-bottom: 15px;
+  z-index: 900;
 }
 
-.scrolltop:hover {
-  margin-right: 20px;
-  margin-bottom: 20px;
+.scrolltotop:hover {
+  /*margin-right: 20px;*/
+  margin-bottom: 25px;
 }
 
-.scrolltop a img {
+.scrolltotop img {
   width: 10vh;
   height: auto;
-}
-
-.placeholder {
-  margin: 0px;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 26px;
-  padding: 150px;
-  background: rgba(0, 0, 0, 0.44);
 }

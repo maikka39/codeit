@@ -1,4 +1,4 @@
-# codeit
-My "Code It!" website.
+# codeguage
+Our "Codeguage!" website.
 
-I'll edit this later :)
+We'll edit this later :)
