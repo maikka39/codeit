@@ -23,7 +23,7 @@
         </ul>
       </li>
       <li>
-        <button style="background: url('../img/logo.png'); background-position: center; background-repeat: no-repeat; background-size: 100% 100%;" class="nav-item account-button" onclick="openLogin()"></button>
+        <button style="background: url('../usraccdata/profiles/placeholder/photo.png'); background-position: center; background-repeat: no-repeat; background-size: 100% 100%;" class="nav-item account-button" onclick="openLogin()"></button>
       </li>
     </ul>
   </div>

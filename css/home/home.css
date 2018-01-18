@@ -47,7 +47,7 @@ header {
   padding-right: 10px;
   border-style: solid;
   border-color: #ffffff;
-  border-radius: 7.5px;
+  border-radius: 10px;
   border-width: 4.5px;
   color: #ffffff;
   text-shadow: 1px 1px 10px #636363;
@@ -64,8 +64,13 @@ header {
   padding: 35px;
   margin-left: 20px;
   margin-right: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 4vw;
+}
+
+.title {
+  height: 15vh;
+  line-height: 15vh;
 }
 
 .programming-at-home {
@@ -76,10 +81,15 @@ header {
   list-style: none;
   width: 85vw;
   margin: auto;
+  text-align: center;
 }
 
 .programming-at-home ul li {
   display: inline-block;
+}
+
+.banner {
+
 }
 
 .pros {
@@ -89,6 +99,7 @@ header {
   font-size: 1.5vw;
   padding: 2vw 2.5vw;
   margin: 1.2vw;
+  background-color: #ffffff;
   border: 0.2vw solid #000000;
   border-radius: 10px;
 }
@@ -97,11 +108,26 @@ header {
   font-size: 2vw;
 }
 
-.pros img {
+.pros .img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
   height: 10vw;
-  width: auto;
-  margin: 0.5vw;
+  width: 10vw;
+  margin: 0.5vw auto;
+  border-radius: 50%;
 }
+
+.realcode .img {
+  background-image: url("../../img/home/pros/realcode2.png");
+}
+
+.ownspeed .img {
+  background-image: url("../../img/home/pros/ownspeed.png");
+}
+
+
 
 .languages {
   text-align: center;
@@ -112,9 +138,17 @@ header {
 }
 
 .lang-container {
-  width: 90vw;
-  text-align: center;
   margin: 0 auto;
+  list-style: none;
+  width: 85vw;
+  margin: auto;
+  background-image: url("../../img/home/banners/languages.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .lang {
@@ -153,7 +187,7 @@ header {
   padding: 1vw;
   background: #000000;
   color: #ffffff;
-  border-radius: 20px;
+  border-radius: 10px;
   border-style: solid;
   border-color: #000000;
   border-width: 2px;

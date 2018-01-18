@@ -19,46 +19,53 @@
         </div>
     </header>
     <div id="programming-at-home" class="programming-at-home">
-      <h1>Programming at home</h1>
+      <div class="banner"></div>
+      <h1 class="title">Programming at home</h1>
       <ul>
         <li>
-          <div class="pros">
-            <img src="img/homepage/pros/Photo-Placeholder.png" alt="Foto" width="150px" height="150px"><br>
+          <div class="pros realcode">
+            <div class="img"></div>
+            <!-- <img src="img/home/pros/realcode2.png" alt="Foto" width="150px" height="150px"><br> -->
             <strong>Real Code</strong>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, libero repellendus repellat a magni possimus, neque quod.</p>
           </div>
         </li>
         <li>
-          <div class="pros">
-            <img src="img/homepage/pros/Photo-Placeholder.png" alt="Foto" width="150px" height="150px"><br>
+          <div class="pros ownspeed">
+            <div class="img"></div>
+            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
             <strong>Own Speed</strong>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque alias laborum corrupti laudantium explicabo modi labore autem.</p>
         </div>
         </li>
         <li>
-          <div class="pros">
-            <img src="img/homepage/pros/Photo-Placeholder.png" alt="Foto" width="150px" height="150px"><br>
+          <div class="pros educating">
+            <div class="img"></div>
+            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
             <strong>Educating</strong>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet cum vero necessitatibus tempore obcaecati reiciendis est.</p>
           </div>
         </li>
         <li>
-          <div class="pros">
-            <img src="img/homepage/pros/Photo-Placeholder.png" alt="Foto" width="150px" height="150px"><br>
+          <div class="pros yourwebsite">
+            <div class="img"></div>
+            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
             <strong>Your Website</strong>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, fugiat ratione quod maxime nisi, id delectus modi.</p>
           </div>
         </li>
         <li>
-          <div class="pros">
-            <img src="img/homepage/pros/Photo-Placeholder.png" alt="Foto" width="150px" height="150px"><br>
+          <div class="pros noexperience">
+            <div class="img"></div>
+            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
             <strong>No Experience</strong>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa repellendus odit excepturi aliquid quo esse eos, nisi!</p>
           </div>
         </li>
         <li>
           <div class="pros">
-            <img src="img/homepage/pros/Photo-Placeholder.png" alt="Foto" width="150px" height="150px"><br>
+            <div class="img"></div>
+            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
             <strong>TEXT</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et rem pariatur veritatis at. Adipisci, aut, necessitatibus.</p>
           </div>
@@ -66,7 +73,7 @@
       </ul>
     </div>
     <div id="languages" class="languages">
-      <h1>Languages</h1>
+      <h1 class="title">Languages</h1>
       <div class="lang-container">
           <div class="lang">
             <strong>Java</strong>
