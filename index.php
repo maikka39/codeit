@@ -5,16 +5,6 @@
     <?php include 'include/head.php'; ?>
     <title>CodeIt - Start coding today!</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-52819721-7"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-52819721-7');
-		</script>
-
     <link rel="stylesheet" href="css/home/home.css">
   </head>
   <body>
