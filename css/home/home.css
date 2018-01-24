@@ -120,14 +120,28 @@ header {
 }
 
 .realcode .img {
-  background-image: url("../../img/home/pros/realcode2.png");
+  background-image: url("../../img/home/pros/realcode3.png");
 }
 
 .ownspeed .img {
   background-image: url("../../img/home/pros/ownspeed.png");
 }
 
+.educating .img {
+  background-image: url("../../img/home/pros/educating2.png");
+}
 
+.free .img {
+  background-image: url("../../img/home/pros/free.png");
+}
+
+.yourwebsite .img {
+  background-image: url("../../img/home/pros/yourwebsite.png");
+}
+
+.easy .img {
+  background-image: url("../../img/home/pros/easy.png");
+}
 
 .languages {
   text-align: center;
@@ -149,6 +163,7 @@ header {
   background-size: cover;
   text-align: center;
   border-radius: 10px;
+  display: flex;
 }
 
 .lang {
@@ -164,6 +179,10 @@ header {
   border-color: #000000;
   border-radius: 10px;
   margin: 10px;
+  flex: 1;
+  padding: 1em;
+  border: solid;
+  position: relative;
 }
 
 .lang:hover {
@@ -179,6 +198,7 @@ header {
 
 .languages p {
   font-size: 1vw;
+  margin-bottom: 4vw;
 }
 
 .languages-button {
@@ -191,7 +211,10 @@ header {
   border-style: solid;
   border-color: #000000;
   border-width: 2px;
-  margin: 1vw 0 0 0;
+  margin-bottom: 0.5vw;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
 }
 
 .languages-button:hover {

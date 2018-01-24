@@ -47,26 +47,26 @@
           </div>
         </li>
         <li>
-          <div class="pros yourwebsite">
+          <div class="pros free">
             <div class="img"></div>
             <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>Your Website</strong>
+            <strong>Free</strong>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, fugiat ratione quod maxime nisi, id delectus modi.</p>
           </div>
         </li>
         <li>
-          <div class="pros noexperience">
+          <div class="pros yourwebsite">
             <div class="img"></div>
             <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>No Experience</strong>
+            <strong>Your Website</strong>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa repellendus odit excepturi aliquid quo esse eos, nisi!</p>
           </div>
         </li>
         <li>
-          <div class="pros">
+          <div class="pros easy">
             <div class="img"></div>
             <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>TEXT</strong>
+            <strong>Easy</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et rem pariatur veritatis at. Adipisci, aut, necessitatibus.</p>
           </div>
         </li>
