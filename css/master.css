@@ -1,4 +1,8 @@
+/* @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+
 * {
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
   padding: 0;
   transition: 0.1s;
@@ -12,7 +16,7 @@ body {
   text-decoration: none;
   text-align: left;
   vertical-align: top;
-  font-family: monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .sticky {
@@ -25,17 +29,20 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
-  margin-right: 15px;
-  margin-bottom: 15px;
+  margin: 15px;
   z-index: 900;
 }
 
 .scrolltotop:hover {
   /*margin-right: 20px;*/
-  margin-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .scrolltotop img {
   width: 10vh;
   height: auto;
+}
+
+.scroll {
+  overflow: auto;
 }

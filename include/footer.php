@@ -32,6 +32,6 @@
   <?php include 'include/easteregg.php'; ?>
   <div id="easteregg" class="easteregg"></div>
   <p class="copyright">
-    Copyright 2017 © <a class="copyright-link" href="/">Codeit</a>
+    Copyright 2018 © <a class="copyright-link" href="/">Codeit</a>
   </p>
 </footer>

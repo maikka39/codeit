@@ -13,7 +13,7 @@ function fadeElement(element, state, fadeSpeed, display) {
       element.css("display", "none");
     }
   } else {
-    console.log("Provide all arguments for fadeElement");
+    console.log("Provide all args for fadeElement");
   }
 }
 
@@ -72,7 +72,8 @@ $(".scroll").niceScroll({
   cursorcolor:"rgba(45, 45, 45, 0.85)",
   cursorborder: "none",
   cursorwidth:"0.4vw",
-  zindex: "999"
+  zindex: "999",
+  autohidemode: false
 });
 
 $.fn.extend({
