@@ -117,6 +117,13 @@ nav ul li {
   color: #000000;
 }
 
+.loginError {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  color: #ff0000;
+}
+
 /*
   Drop-menu in the navigation bar
 */

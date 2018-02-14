@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <?php include 'include/head.php'; ?>
-    <title>Codeguage - Learn to code</title>
+    <title>CodeIt - Learn to code</title>
 
     <link rel="stylesheet" href="css/folder/file.css">
   </head>

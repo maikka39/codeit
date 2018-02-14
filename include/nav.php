@@ -27,10 +27,20 @@
       </li>
     </ul>
   </div>
-  <div class="login-form">
-    <h1>Sign In</h1>
-    <input class="loginInput" type="username" name="username" value="" placeholder="E-mail or Username">
-    <input class="loginInput" type="password" name="password" value="" placeholder="Password">
-    <input class="loginButton" type="submit" value="Log In" onclick="">
+  <div class="login-form" id="loginform">
+    <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
+      <?php include('php/login.php'); ?>
+      <h1>Sign In</h1>
+      <span class="loginError"><?= $errLgn ?></span>
+      <input class="loginInput" type="username" name="username" value="<?php if(isset($_POST['username'])) echo $_POST['username'];?>" placeholder="E-mail or Username">
+      <span class="loginError"><?= $errPwd ?></span>
+      <input class="loginInput" type="password" name="password" value="<?php if(isset($_POST['password'])) echo $_POST['password'];?>" placeholder="Password">
+      <input class="loginButton" type="submit" name="submit" value="Log In">
+    </form>
   </div>
+  <?php
+  if (isset($_POST["submit"])) {
+    echo '<script>document.getElementById("loginform").style.display = "block"; openLogin();</script>';
+  }
+  ?>
 </nav>

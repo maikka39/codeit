@@ -1,22 +1,3 @@
-// Create function for fading in/out elements
-function fadeElement(element, state, fadeSpeed, display) {
-  element = $(element);
-  if (element && state && fadeSpeed) {
-    if (!display) {
-      display = "block";
-    }
-    if (state == "in") {
-      element.css("display", display);
-      element.animate({'opacity':'1'}, fadeSpeed);
-    } else if (state == "out") {
-      element.animate({'opacity':'0'}, fadeSpeed);
-      element.css("display", "none");
-    }
-  } else {
-    console.log("Provide all args for fadeElement");
-  }
-}
-
 //Show/Hide scrolltop
 $(window).scroll(function() {
   if ($(this).scrollTop() > 200) {
