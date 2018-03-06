@@ -64,7 +64,23 @@ function login($username, $password) {
       lgn_state('WrongPassword');
     }
   } else {
-    lgn_state('NoAccount');
+    $sql = "SELECT * FROM `users` WHERE user_nickname = '$username'";
+    $result = mysqli_query($dblink, $sql);
+
+    if ($result && mysqli_num_rows($result) >= 1) {
+
+      // Check passwords
+      $sql = "SELECT user_pass FROM `users` WHERE user_login = '$username'";
+      $result = mysqli_query($dblink, $sql);
+
+      if (mysqli_fetch_row($result)[0] === $password) {
+        lgn_state('lgn_state');
+      } else {
+        lgn_state('WrongPassword');
+      }
+    } else {
+      lgn_state('NoAccount');
+    }
   }
 
   // Close the connection to the database
