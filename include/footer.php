@@ -8,15 +8,15 @@
     </ul>
     <ul>
       <li class="footer-menu-head">Catalog</li>
-      <li class="footer-menu-subhead">By Subject</li>
+      <!-- <li class="footer-menu-subhead">By Subject</li> -->
       <li>Web Development</li>
       <li>Programming</li>
       <li>Data Science</li>
       <li></li>
     </ul>
     <ul>
-      <li class="footer-menu-head"> </li>
-      <li class="footer-menu-subhead">By language</li>
+      <li class="footer-menu-head">Languages</li>
+      <!-- <li class="footer-menu-subhead">By language</li> -->
       <li>Java</li>
       <li>Python</li>
       <li>Ruby</li>
@@ -26,6 +26,12 @@
       <li class="footer-menu-head">Resources</li>
       <li>Beta Courses</li>
       <li>Articles</li>
+      <li>Support</li>
+    </ul>
+    <ul>
+      <li class="footer-menu-head">My Account</li>
+      <li>Login</li>
+      <li>Premium</li>
       <li>Help</li>
     </ul>
   </div>
