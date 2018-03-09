@@ -79,17 +79,19 @@
             <div class="lang">
               <strong>Java</strong>
               <p>Java is among the most popular programming languages out there, thanks to its versatility and compatibility. Java is used for software development, mobile applications, and large systems development.</p>
-              <a href="languages/html/">
-                <div class="languages-button">
-                  Learn More >
-                </div>
-              </a>
+              <div class="lang-button-container">
+                <a href="languages/java/">
+                  <div class="languages-button">
+                    Learn More >
+                  </div>
+                </a>
+              </div>
             </div>
             <div class="lang">
               <strong>Ruby</strong>
               <p>Ruby is a general-purpose language that is still popular and in high demand in the marketplace, and is used commonly in Rails applications. Concise and readable, it is easy to pick up but also plenty powerful. Companies like Twitter, Soundcloud, Goodreads, and Kickstarter got their products off the ground with Ruby.</p>
               <div class="lang-button-container">
-                <a href="languages/css/">
+                <a href="languages/ruby/">
                   <div class="languages-button">
                     Learn More >
                   </div>
@@ -99,22 +101,26 @@
             <div class="lang">
               <strong>Python</strong>
               <p>Python is a general-purpose, versatile and modern programming language. It's great as a first language because it is concise and easy to read. Use it for everything from web development to software development and scientific applications.</p>
-              <a href="languages/js/">
-                <div class="languages-button">
-                  Learn More >
-                </div>
-              </a>
+              <div class="lang-button-container">
+                <a href="languages/python/">
+                  <div class="languages-button">
+                    Learn More >
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
           <div class="lang-row">
             <div class="lang">
               <strong>JavaScript</strong>
               <p>JavaScript is the programming language of the web. You can use it to add dynamic behavior, store information, and handle requests and responses on a website. This course sequence covers data types and structures, functions, and object-oriented programming with classical inheritance in ES6 syntax.</p>
-              <a href="languages/scratch/">
-                <div class="languages-button">
-                  Learn More >
-                </div>
-              </a>
+              <div class="lang-button-container">
+                <a href="languages/javascript/">
+                  <div class="languages-button">
+                    Learn More >
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
       </div>

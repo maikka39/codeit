@@ -211,8 +211,11 @@ header {
 }
 
 .lang-button-container {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin-left:-45%;
+  left:50%;
 }
 
 .languages-button {
@@ -226,9 +229,7 @@ header {
   border-color: #000000;
   border-width: 2px;
   margin-bottom: 0.5vw;
-  position: absolute;
-  bottom: 0;
-  width: 80%;
+
 }
 
 .languages-button:hover {

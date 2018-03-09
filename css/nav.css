@@ -225,11 +225,12 @@ footer {
   display: inline-block;
   list-style: none;
   width: 15vw;
+  font-size: 1.5vw;
 }
 
 .footer-menu-head {
   color: #dbdbdb;
-  font-size: 32px;
+  font-size: 2vw;
   font-weight: 600;
 
 }
@@ -237,7 +238,6 @@ footer {
 .footer-menu-subhead {
   text-transform: uppercase;
   color: #e4e4e3;
-  font-weight: 50;
 }
 
 .copyright {
