@@ -29,7 +29,10 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- Import jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="js/lib/jQuery/jquery.min.js">
+
+</script>
 
 <!-- Import the NiceScroll libary -->
 <script src="js/lib/NiceScroll/jquery.nicescroll.js"></script>
