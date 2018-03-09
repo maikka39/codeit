@@ -16,10 +16,19 @@ function setup() {
 
   bird = new Bird();
   // pipe.push(new Pipe());
+
+  // Set frame rate for when not playing the game so the browser wont lagg as much
+  frameRate(0.01);
 }
 
 // Draw the background, pipes and bird
 function draw() {
+  if (started === 1) {
+    game();
+  }
+}
+
+function game() {
   noStroke();
   background(48);
 
@@ -47,7 +56,6 @@ function draw() {
   if (frameCount % pipeFrequency == 0) {
     pipe.push(new Pipe());
   }
-
 }
 
 function stop() {
@@ -55,9 +63,12 @@ function stop() {
   pipe.splice(0);
   pipeFrequency = 0;
   showBird = 0;
+  game();
+  frameRate(1);
 }
 
 function start() {
+  frameRate(60);
   started = 1;
   pipeFrequency = 60;
   showBird = 1;
