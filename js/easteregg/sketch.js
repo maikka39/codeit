@@ -100,9 +100,6 @@ function keyPressed() {
     // Make the bird go up
     bird.up();
     // console.log("Key pressed");
-  } else if (key == ' ') {
-    // Make the bird go up
-    bird.up();
   } else if (key == 'S') {
     if (started == 0) {
       start();
