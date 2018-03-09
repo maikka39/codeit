@@ -87,10 +87,12 @@ header {
 
 .pam-item {
   display: inline-block;
+  float: none;
+  position: static;
+  min-width: 23vw;
+  width: 23vw;
   flex: 1;
-  position: relative;
-  width: 20vw;
-
+  margin: 0 0.5vw;
   background-color: #ffffff;
   border: 0.2vw solid #000000;
   border-radius: 10px;
