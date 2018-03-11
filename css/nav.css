@@ -233,11 +233,14 @@ footer {
   color: inherit;
 }
 
+.footer-menu a:hover {
+  color: #bababa;
+}
+
 .footer-menu-head {
   color: #dbdbdb;
   font-size: 2vw;
   font-weight: 600;
-
 }
 
 .footer-menu-subhead {
