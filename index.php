@@ -27,7 +27,7 @@
             <div class="pam-item">
               <div class="pros realcode">
                 <div class="img"></div>
-                <!-- <img src="img/home/pros/realcode2.png" alt="Foto" width="150px" height="150px"><br> -->
+                <!-- <img src="/img/home/pros/realcode2.png" alt="Foto" width="150px" height="150px"><br> -->
                 <strong>Real Code</strong>
                   <p>No blocks to drag and drop but real code. This way you can learn codeing in more depth and understand how it really works.</p>
               </div>
@@ -35,7 +35,7 @@
             <div class="pam-item">
               <div class="pros ownspeed">
                 <div class="img"></div>
-                <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
+                <!-- <img src="/img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                 <strong>Own Speed</strong>
                   <p>Code at your own speed, no video tutorials that go way to fast. You choose how long you want to do someting and at what level!</p>
               </div>
@@ -51,7 +51,7 @@
             <div class="pam-item">
               <div class="pros free">
                 <div class="img"></div>
-                <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
+                <!-- <img src="/img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                 <strong>Free</strong>
                   <p>All basic tutorials are, and always will be, free for all of you! We strongly believe everyone should be able to code.</p>
               </div>
@@ -67,7 +67,7 @@
             <div class="pam-item">
               <div class="pros easy">
                 <div class="img"></div>
-                <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
+                <!-- <img src="/img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                 <strong>No experience</strong>
                 <p>You do not need any experience whatsoever! We will learn you al the basics to recreate most of the existing programs.</p>
               </div>
@@ -131,6 +131,6 @@
     </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/footer.php'; ?>
   </body>
-  <script src="js/home.js"></script>
+  <script src="/js/home.js"></script>
   <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/importJS.php'; ?>
 </html>
