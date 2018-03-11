@@ -12,7 +12,11 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/include.php'; ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/nav.php'; ?>
     <div class="site-content">
-      Page not found!
+      <div class="error404">
+        <img src="/img/error-pages/dog.svg" alt="">
+        <h1>Oops, it's gone :[</h1>
+        <p>Angry Dog has eaten the page you are looking<br> for, please try one of these instead</p>
+      </div>
     </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/footer.php'; ?>
   </body>
