@@ -1,38 +1,38 @@
 <footer>
   <div class="footer-menu">
     <ul>
-      <li class="footer-menu-head">Codeit</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Jobs</li>
+      <li class="footer-menu-head"><a href="/">Codeit</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="/jobs">Jobs</a></li>
     </ul>
     <ul>
-      <li class="footer-menu-head">Catalog</li>
+      <li class="footer-menu-head"><a href="/catalog">Catalog</a></li>
       <!-- <li class="footer-menu-subhead">By Subject</li> -->
-      <li>Web Development</li>
-      <li>Programming</li>
-      <li>Data Science</li>
+      <li><a href="/catalog/#web-development">Web Development</a></li>
+      <li><a href="/catalog/#programming">Programming</a></li>
+      <li><a href="/catalog/#data-science">Data Science</a></li>
       <li></li>
     </ul>
     <ul>
-      <li class="footer-menu-head">Languages</li>
+      <li class="footer-menu-head"><a href="/languages">Languages</a></li>
       <!-- <li class="footer-menu-subhead">By language</li> -->
-      <li>Java</li>
-      <li>Python</li>
-      <li>Ruby</li>
-      <li>JavaScript</li>
+      <li><a href="/languages/java">Java</a></li>
+      <li><a href="/languages/python">Python</a></li>
+      <li><a href="/languages/ruby">Ruby</a></li>
+      <li><a href="/languages/js">JavaScript</a></li>
     </ul>
     <ul>
-      <li class="footer-menu-head">Resources</li>
-      <li>Beta Courses</li>
-      <li>Articles</li>
-      <li>Support</li>
+      <li class="footer-menu-head"><a href="/recources">Resources</a></li>
+      <li><a href="/recources/beta-courses">Beta Courses</a></li>
+      <li><a href="/recources/articles">Articles</a></li>
+      <li><a href="/recources/support">Support</a></li>
     </ul>
     <ul>
-      <li class="footer-menu-head">My Account</li>
-      <li>Login</li>
-      <li>Premium</li>
-      <li>Help</li>
+      <li class="footer-menu-head"><a href="/account">My Account</a></li>
+      <li><a href="/login">Login</a></li>
+      <li><a href="/account/premium">Premium</a></li>
+      <li><a href="/account/help">Help</a></li>
     </ul>
   </div>
   <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/easteregg.php'; ?>
