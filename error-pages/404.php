@@ -11,7 +11,9 @@
   <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/include.php'; ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/nav.php'; ?>
-    Page not found!
+    <div class="site-content">
+      Page not found!
+    </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/footer.php'; ?>
   </body>
   <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/importJS.php'; ?>

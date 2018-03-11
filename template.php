@@ -10,7 +10,9 @@
   <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/include.php'; ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/nav.php'; ?>
-    CONTENT GOES HERE!
+    <div class="site-content">
+      CONTENT GOES HERE!
+    </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/footer.php'; ?>
   </body>
   <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/importJS.php'; ?>
