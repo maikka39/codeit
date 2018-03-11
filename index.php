@@ -29,7 +29,7 @@
                 <div class="img"></div>
                 <!-- <img src="img/home/pros/realcode2.png" alt="Foto" width="150px" height="150px"><br> -->
                 <strong>Real Code</strong>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, libero repellendus repellat a magni possimus, neque quod.</p>
+                  <p>No blocks to drag and drop but real code. This way you can learn codeing in more depth and understand how it really works.</p>
               </div>
             </div>
             <div class="pam-item">
@@ -37,7 +37,7 @@
                 <div class="img"></div>
                 <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                 <strong>Own Speed</strong>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque alias laborum corrupti laudantium explicabo modi labore autem.</p>
+                  <p>Code at your own speed, no video tutorials that go way to fast. You choose how long you want to do someting and at what level!</p>
               </div>
             </div>
             <div class="pam-item">
@@ -45,7 +45,7 @@
                 <div class="img"></div>
                 <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                 <strong>Educating</strong>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet cum vero necessitatibus tempore obcaecati reiciendis est.</p>
+                  <p>If you don't understand someting you can always contact our tutors. They are happy to help you whenever possible.</p>
               </div>
             </div>
             <div class="pam-item">
@@ -53,23 +53,23 @@
                 <div class="img"></div>
                 <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                 <strong>Free</strong>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, fugiat ratione quod maxime nisi, id delectus modi.</p>
+                  <p>All basic tutorials are, and always will be, free for all of you! We strongly believe everyone should be able to code.</p>
               </div>
             </div>
             <div class="pam-item">
               <div class="pros yourwebsite">
                 <div class="img"></div>
                 <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-                <strong>Your Website</strong>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa repellendus odit excepturi aliquid quo esse eos, nisi!</p>
+                <strong>Your Program</strong>
+                  <p>Learn how to make your very own calculator or basic game! No more day just ideas, make your dreams come true now!</p>
               </div>
             </div>
             <div class="pam-item">
               <div class="pros easy">
                 <div class="img"></div>
                 <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-                <strong>Easy</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et rem pariatur veritatis at. Adipisci, aut, necessitatibus.</p>
+                <strong>No experience</strong>
+                <p>You do not need any experience whatsoever! We will learn you al the basics to recreate most of the existing programs.</p>
               </div>
             </div>
           </div>
