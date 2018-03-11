@@ -197,13 +197,12 @@ nav ul li {
 */
 
 footer {
-  margin-top: 8vh;
   background-color: #303030;
   color: #f6f6f6;
   text-align: center;
   padding: 0px;
   margin: 0px;
-  margin-top: 3vw;
+  /* margin-top: 3vw; */
   width: 100vw;
   position: relative;
 }

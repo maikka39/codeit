@@ -43,3 +43,7 @@ body {
 .scroll {
   overflow: auto;
 }
+
+.site-content {
+  padding-bottom: 8vh;
+}
