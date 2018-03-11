@@ -10,7 +10,6 @@
   <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/include.php'; ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/nav.php'; ?>
-    <div id="top"></div>
     <div class="site-content">
       <header>
           <div class="heading">Code it!</div>
