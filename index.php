@@ -21,53 +21,57 @@
     <div id="programming-at-home" class="programming-at-home">
       <div class="banner"></div>
       <h1 class="title">Programming at home</h1>
-      <div class="pam-container scroll">
-        <div class="pam-item">
-          <div class="pros realcode">
-            <div class="img"></div>
-            <!-- <img src="img/home/pros/realcode2.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>Real Code</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, libero repellendus repellat a magni possimus, neque quod.</p>
-          </div>
-        </div>
-        <div class="pam-item">
-          <div class="pros ownspeed">
-            <div class="img"></div>
-            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>Own Speed</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque alias laborum corrupti laudantium explicabo modi labore autem.</p>
-          </div>
-        </div>
-        <div class="pam-item">
-          <div class="pros educating">
-            <div class="img"></div>
-            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>Educating</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet cum vero necessitatibus tempore obcaecati reiciendis est.</p>
-          </div>
-        </div>
-        <div class="pam-item">
-          <div class="pros free">
-            <div class="img"></div>
-            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>Free</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, fugiat ratione quod maxime nisi, id delectus modi.</p>
-          </div>
-        </div>
-        <div class="pam-item">
-          <div class="pros yourwebsite">
-            <div class="img"></div>
-            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>Your Website</strong>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa repellendus odit excepturi aliquid quo esse eos, nisi!</p>
-          </div>
-        </div>
-        <div class="pam-item">
-          <div class="pros easy">
-            <div class="img"></div>
-            <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
-            <strong>Easy</strong>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et rem pariatur veritatis at. Adipisci, aut, necessitatibus.</p>
+      <div id="pam-container-container" class="pam-container-container">
+        <div id="pam-container" class="pam-container">
+          <div id="pam-items" class="pam-items">
+            <div class="pam-item">
+              <div class="pros realcode">
+                <div class="img"></div>
+                <!-- <img src="img/home/pros/realcode2.png" alt="Foto" width="150px" height="150px"><br> -->
+                <strong>Real Code</strong>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, libero repellendus repellat a magni possimus, neque quod.</p>
+              </div>
+            </div>
+            <div class="pam-item">
+              <div class="pros ownspeed">
+                <div class="img"></div>
+                <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
+                <strong>Own Speed</strong>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque alias laborum corrupti laudantium explicabo modi labore autem.</p>
+              </div>
+            </div>
+            <div class="pam-item">
+              <div class="pros educating">
+                <div class="img"></div>
+                <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
+                <strong>Educating</strong>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet cum vero necessitatibus tempore obcaecati reiciendis est.</p>
+              </div>
+            </div>
+            <div class="pam-item">
+              <div class="pros free">
+                <div class="img"></div>
+                <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
+                <strong>Free</strong>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, fugiat ratione quod maxime nisi, id delectus modi.</p>
+              </div>
+            </div>
+            <div class="pam-item">
+              <div class="pros yourwebsite">
+                <div class="img"></div>
+                <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
+                <strong>Your Website</strong>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa repellendus odit excepturi aliquid quo esse eos, nisi!</p>
+              </div>
+            </div>
+            <div class="pam-item">
+              <div class="pros easy">
+                <div class="img"></div>
+                <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
+                <strong>Easy</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et rem pariatur veritatis at. Adipisci, aut, necessitatibus.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -127,5 +131,6 @@
     </div>
     <?php include 'include/footer.php'; ?>
   </body>
+  <script src="js/home.js"></script>
   <?php include 'include/importJS.php'; ?>
 </html>
