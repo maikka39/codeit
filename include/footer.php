@@ -35,7 +35,7 @@
       <li><a href="/account/help">Help</a></li>
     </ul>
   </div>
-  <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/easteregg.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/include/easteregg.php'; ?>
   <div id="easteregg" class="easteregg"></div>
   <p class="copyright">
     Copyright 2018 © <a class="copyright-link" href="/">Codeit</a>
