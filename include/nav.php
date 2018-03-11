@@ -1,7 +1,7 @@
 <nav>
-  <script language="javascript" type="text/javascript" src="js/nav.js"></script>
+  <script language="javascript" type="text/javascript" src="/js/nav.js"></script>
   <div class="logo">
-    <a href="./"><img src="img/logo+text.png" alt="logo" width="125" height="50"></a>
+    <a href="./"><img src="/img/logo+text.png" alt="logo" width="125" height="50"></a>
   </div>
   <div class="nav-bar">
     <ul>
@@ -29,7 +29,7 @@
   </div>
   <div class="login-form" id="loginform">
     <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
-      <?php include('php/login.php'); ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/login.php'; ?>
       <h1>Sign In</h1>
       <span class="loginError"><?= $errLgn ?></span>
       <input class="loginInput" type="username" name="username" value="<?php if(isset($_POST['username'])) echo $_POST['username'];?>" placeholder="E-mail or Username">

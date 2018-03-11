@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/nav.css">
-<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="/css/fonts.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/master.css">
 
 <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
@@ -30,17 +30,17 @@
 
 <!-- Import jQuery -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-<script src="js/lib/jQuery/jquery.min.js">
+<script src="/js/lib/jQuery/jquery.min.js">
 
 </script>
 
 <!-- Import the NiceScroll libary -->
-<script src="js/lib/NiceScroll/jquery.nicescroll.js"></script>
-<script src="js/lib/NiceScroll/jquery.nicescroll.iframehelper.js"></script>
+<script src="/js/lib/NiceScroll/jquery.nicescroll.js"></script>
+<script src="/js/lib/NiceScroll/jquery.nicescroll.iframehelper.js"></script>
 
 <!-- Cookies banner -->
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script src="cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({

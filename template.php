@@ -2,15 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <?php include 'include/head.php'; ?>
-    <title>CodeIt - Learn to code</title>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/head.php'; ?>
+    <title>CodeIt - Start coding today!</title>
 
-    <link rel="stylesheet" href="css/folder/file.css">
+    <!-- <link rel="stylesheet" href="/css/folder/file.css"> -->
   </head>
   <body>
-    <?php include 'include/include.php'; ?>
-    <?php include 'include/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/include.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/nav.php'; ?>
     CONTENT GOES HERE!
-    <?php include 'include/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/footer.php'; ?>
   </body>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . 'include/importJS.php'; ?>
 </html>
