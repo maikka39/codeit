@@ -18,8 +18,8 @@
       <li class="footer-menu-head"><a href="/languages">Languages</a></li>
       <!-- <li class="footer-menu-subhead">By language</li> -->
       <li><a href="/languages/java">Java</a></li>
-      <li><a href="/languages/python">Python</a></li>
       <li><a href="/languages/ruby">Ruby</a></li>
+      <li><a href="/languages/python">Python</a></li>
       <li><a href="/languages/js">JavaScript</a></li>
     </ul>
     <ul>
