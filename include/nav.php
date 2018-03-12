@@ -9,10 +9,10 @@
       <li>
         <a class="nav-item" href="/catalog/">Catalog</a>
         <ul class="drop-menu">
-          <li><a class="drop-menu-item" href="/catalog/java/">Java</a></li>
-          <li><a class="drop-menu-item" href="/catalog/ruby/">Ruby</a></li>
-          <li><a class="drop-menu-item" href="/catalog/python/">Python</a></li>
-          <li><a class="drop-menu-item" href="/catalog/js/">JavaScript</a></li>
+          <li><a class="drop-menu-item" href="/catalog/#java">Java</a></li>
+          <li><a class="drop-menu-item" href="/catalog/#ruby">Ruby</a></li>
+          <li><a class="drop-menu-item" href="/catalog/#python">Python</a></li>
+          <li><a class="drop-menu-item" href="/catalog/#js">JavaScript</a></li>
         </ul>
       </li>
       <li>
