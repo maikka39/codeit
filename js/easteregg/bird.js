@@ -1,9 +1,10 @@
 function Bird() {
   this.y = height/2;
   this.x = width/4;
+  this.r = 8;
 
-  this.width = 16;
-  this.height = 16;
+  this.width = this.r * 2;
+  this.height = this.r * 2;
 
   this.gravity = 0.6;
   this.upforce = -10;
