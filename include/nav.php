@@ -1,11 +1,11 @@
 <nav>
   <script language="javascript" type="text/javascript" src="/js/nav.js"></script>
   <div class="logo">
-    <a href="./"><img src="/img/logo+text.png" alt="logo" width="125" height="50"></a>
+    <a href="/"><img src="/img/logo+text.png" alt="logo" width="125" height="50"></a>
   </div>
   <div class="nav-bar">
     <ul>
-      <li><a class="nav-item" href="./">Home</a></li>
+      <li><a class="nav-item" href="/">Home</a></li>
       <li>
         <a class="nav-item" href="/catalog/">Catalog</a>
         <ul class="drop-menu">
