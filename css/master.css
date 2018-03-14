@@ -47,3 +47,52 @@ body {
 .site-content {
   padding-bottom: 8vh;
 }
+
+.cookie-bar {
+  position: fixed;
+  background: #000000;
+  bottom: 0;
+  width: 100vw;
+  /* height: 12vh; */
+  /* line-height: 9vh; */
+  z-index: 901;
+  display: table;
+}
+
+.cookie-bar p {
+  color: #ffffff;
+  margin-left: 1vw;
+  display: inline-block;
+  font-size: 1vw;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cookie-bar p a {
+  text-decoration: underline;
+  color: #b5b5b5;
+}
+
+.cookie-button {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.cookie-button button {
+  text-align: center;
+  background: #f1d600;
+  padding: 0.6vw 1.7vw;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.2vw;
+  border: none;
+  border: 0.3vw solid #f1d600;
+}
+
+.cookie-button button:hover {
+  color: #f1d600;
+  background: #000000;
+  transition: none;
+}

@@ -39,7 +39,7 @@
 <script src="/js/lib/NiceScroll/jquery.nicescroll.iframehelper.js"></script>
 
 <!-- Cookies banner -->
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
 window.addEventListener("load", function(){
@@ -53,7 +53,7 @@ window.cookieconsent.initialise({
     }
   }
 })});
-</script>
+</script> -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52819721-7"></script>
