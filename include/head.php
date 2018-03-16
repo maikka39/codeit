@@ -30,11 +30,15 @@
 
 <!-- Import jQuery -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-<script src="/js/lib/jQuery/jquery.min.js">
+<script src="/js/lib/jQuery/jquery.min.js"></script>
 
-</script>
+<!-- Import the cookies library -->
+<script src="/js/lib/cookies/cookies.js"></script>
 
-<!-- Import the NiceScroll libary -->
+<!-- Import and execue onload js -->
+<script src="/js/onload.js">onLoad();</script>
+
+<!-- Import the NiceScroll library -->
 <script src="/js/lib/NiceScroll/jquery.nicescroll.js"></script>
 <script src="/js/lib/NiceScroll/jquery.nicescroll.iframehelper.js"></script>
 
@@ -66,3 +70,5 @@ window.cookieconsent.initialise({
 </script>
 
 <div id="top"></div>
+
+<script type="text/javascript">onLoad();</script>

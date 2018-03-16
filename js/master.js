@@ -77,3 +77,12 @@ $(document).ready(function() {
     $('header').disableSelection();
     $('footer').disableSelection();
 });
+
+
+
+
+function acceptCookies() {
+  console.log("HI");
+  setCookie("acceptCookies", "true", 365);
+  $(".cookie-bar").css("display", "none");
+}
