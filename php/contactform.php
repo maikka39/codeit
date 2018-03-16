@@ -23,7 +23,7 @@
 		$to = 'contact@maikka39.tk';
 		// $ref = rand(100000, 999999);
 		$ref = $ref_num;
-		$title = "MAIKKA39 - Contactform REF=#$ref";
+		$title = "codeit - Contactform REF=#$ref";
 
 		$headers  = 'From:  noreply@maikka39.tk' . "\r\n" .
             'Reply-To: contact@maikka39.tk' . "\r\n" .
@@ -35,8 +35,8 @@
 
 		$body2 = "
 				<body style='color: 222222;'>
-					<header><img src='http://maikka39.tk/favicon.png' height='40px' width='40px' style='margin-right: 10px; vertical-align: middle; line-height: 40px;'><a href='dingen.nl' style='font-size: 30px; color: #cb5b00; font-family: sans-serif; font-weight: 900; text-decoration: none; vertical-align: middle; line-height: 40px;'>DINGEN</a><a href='dingen.nl' style='font-size: 20px; color: #ff9800; font-family: sans-serif; font-weight: 900; text-decoration: none; vertical-align: middle; line-height: 40px;'> maikka39.tk</a></header><br><br>
-					You just send a message to us via maikka39.tk. This message has been recieved.<br><br>
+					<header><img src='http://maikka39.tk/favicon.png' height='40px' width='40px' style='margin-right: 10px; vertical-align: middle; line-height: 40px;'><a href='dingen.nl' style='font-size: 30px; color: #cb5b00; font-family: sans-serif; font-weight: 900; text-decoration: none; vertical-align: middle; line-height: 40px;'>DINGEN</a><a href='dingen.nl' style='font-size: 20px; color: #ff9800; font-family: sans-serif; font-weight: 900; text-decoration: none; vertical-align: middle; line-height: 40px;'> codeit</a></header><br><br>
+					You just send a message to us via our website. This message has been recieved.<br><br>
 					Your message was:<br>
 					<b>Name:</b> $name<br>
 					<b>Email:</b> $email<br>
@@ -73,7 +73,7 @@
 if (!$errName && !$errEmail && !$errSubject && !$errMessage) {
 	if (mail ($to, $title, $body, $headers)) {
 		$resultGood = 'Thank you! We will contact you as soon as possible';
-		mail ($email, 'maikka39', $body2, $headers);
+		mail ($email, 'codeit', $body2, $headers);
 	} else {
 		$resultBad = 'Something went wrong, please try again later';
 	}

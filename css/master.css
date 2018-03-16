@@ -6,6 +6,18 @@
   outline: 0;
 }
 
+p {
+  font-size: 1.1vw;
+}
+
+label {
+  font-size: 1.1vw;
+}
+
+input {
+  font-size: 1.1vw;
+}
+
 body {
   margin: 0px;
   padding: 0px;

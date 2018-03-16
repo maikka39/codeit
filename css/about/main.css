@@ -14,6 +14,10 @@ h1 {
   margin: 3vw;
 }
 
+p {
+  margin: 0.75vw 0;
+}
+
 .table-container {
   display: table;
   width: 80vw;
@@ -23,4 +27,22 @@ h1 {
 .table-cell {
   display: table-cell;
   width: 50%;
+  /* margin: 5vw; */
+}
+
+.aboutsection {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.founder {
+  display: table;
+}
+
+.foundercell {
+  display: table-cell;
+}
+
+.foundercell p {
+  margin-right: 1vw;
 }
