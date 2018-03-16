@@ -1,0 +1,26 @@
+.location {
+  width: 100vw;
+  height: 40vh;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2vw;
+  text-align: center;
+  margin: 3vw;
+}
+
+.table-container {
+  display: table;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.table-cell {
+  display: table-cell;
+  width: 50%;
+}

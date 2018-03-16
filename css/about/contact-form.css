@@ -1,0 +1,66 @@
+form {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+label, .error, .result-good, .result-bad {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #4b4b4b;
+  display: block;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+input, textarea {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+	width: 80%;
+	height: 28px;
+	background: #ededed;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+  margin-left: 5%;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: 1px solid #cb5b00;
+}
+
+textarea {
+	height:213px;
+}
+
+.submitcontactform {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  height: 50px;
+  width: 100px;
+  background-color: #303030;
+	color: #ffffff;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 75%;
+  cursor: pointer;
+}
+
+.result-good {
+  color: #00ff00;
+  margin-left: 10%;
+}
+
+.result-bad {
+  color: #ff0000;
+  margin-left: 10%;
+}
+
+.error {
+  margin-top: 5px;
+  color: #ff0000;
+}

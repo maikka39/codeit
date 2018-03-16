@@ -16,6 +16,10 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+.site-content {
+  min-height: 50vh;
+}
+
 .sticky {
   position: fixed;
 }
