@@ -130,10 +130,6 @@ header {
   position: relative;
 }
 
-.pros strong {
-  font-size: 2vw;
-}
-
 .pros .img {
   background-position: center;
   background-repeat: no-repeat;
@@ -143,6 +139,14 @@ header {
   width: 10vw;
   margin: 0.5vw auto;
   border-radius: 50%;
+}
+
+.pros strong {
+  font-size: 2vw;
+}
+
+.pros p {
+  font-size: 1.4vw;
 }
 
 .realcode .img {
@@ -226,7 +230,7 @@ header {
 }
 
 .languages p {
-  font-size: 1vw;
+  font-size: 1.1vw;
   margin: 0 auto;
   margin-bottom: 5vw;
   width: 80%;

@@ -69,7 +69,7 @@
                   <div class="img"></div>
                   <!-- <img src="/img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                   <strong>No experience</strong>
-                  <p>You do not need any experience whatsoever! We will learn you al the basics to recreate most of the existing programs.</p>
+                  <p>You don't need any experience whatsoever! We will learn you al the basics to recreate most of the existing programs.</p>
                 </div>
               </div>
             </div>
