@@ -93,7 +93,7 @@
               </div>
               <div class="lang">
                 <strong>Ruby</strong>
-                <p>Ruby is a general-purpose language that is still popular and in high demand in the marketplace, and is used commonly in Rails applications. Concise and readable, it is easy to pick up but also plenty powerful. Companies like Twitter, Soundcloud, Goodreads, and Kickstarter got their products off the ground with Ruby.</p>
+                <p>Ruby is a general-purpose language that is still popular and in high demand in the marketplace, and is used commonly in Rails applications. Concise and readable, it is easy to pick up but also plenty powerful.</p>
                 <div class="lang-button-container">
                   <a href="languages/ruby/">
                     <div class="languages-button">
