@@ -75,13 +75,16 @@ body {
   display: table;
 }
 
-.cookie-bar p {
-  color: #ffffff;
-  margin-left: 1vw;
-  display: inline-block;
-  font-size: 1vw;
+.cookie-info {
   display: table-cell;
   vertical-align: middle;
+}
+
+.cookie-bar p {
+  color: #ffffff;
+  margin-left: 0.5vw;
+  display: inline-block;
+  font-size: 1vw;
 }
 
 .cookie-bar p a {

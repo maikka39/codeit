@@ -6,7 +6,7 @@
 if(!isset($_COOKIE["acceptCookies"])) {
      echo('
      <div class="cookie-bar">
-     <p>This website uses cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/">Learn more</a></p>
+     <div class="cookie-info"><p>This website uses cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/">Learn more</a></p></div>
      <div class="cookie-button">
      <button type="button" name="cookiebarbutton" onclick="acceptCookies();">Got it!</button>
      </div>
