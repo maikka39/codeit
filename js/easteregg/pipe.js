@@ -14,9 +14,9 @@ function Pipe() {
   // Check is the bird is hitting the pipe
   this.hits = function(bird) {
     // Evaluate if the bird is heigh enough
-    if (bird.y + bird.r < this.top || bird.y + bird.r > height - this.bottom) {
+    if (bird.y - bird.r < this.top || bird.y + bird.r > height - this.bottom) {
       // Evaluate if the bird has the right x position
-      if (bird.x + bird.r > this.x && bird.x + bird.r < this.x + this.width) {
+      if ((bird.x + bird.r > this.x && bird.x + bird.r < this.x + this.width) || (bird.x - bird.r > this.x && bird.x - bird.r < this.x + this.width)) {
         this.highlight = true;
         return true;
       }
