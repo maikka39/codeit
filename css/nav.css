@@ -42,7 +42,8 @@ nav ul li {
   font-family: sans-serif;
   font-weight: bold;
   display: inline-block;
-  padding: 25px 1.5vw;
+  padding: 0 1.5vw;
+  line-height: 68px;
   transition-duration: 0.25s;
   cursor: pointer;
 }
