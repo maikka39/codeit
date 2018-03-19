@@ -8,6 +8,10 @@ label, .error, .result-good, .result-bad {
   margin-top: 1.4vw;
 }
 
+span {
+  font-size: 1.15vw;
+}
+
 input, textarea {
 	width: 96%;
 	height: 2vw;
@@ -15,6 +19,7 @@ input, textarea {
 	border: 1px solid #dedede;
 	padding: 0.6vw;
 	margin-top: 0.25vw;
+  font-size: 1.1vw;
 }
 
 input:focus, textarea:focus {
@@ -40,12 +45,12 @@ textarea {
 
 .result-good {
   color: #00ff00;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 .result-bad {
   color: #ff0000;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 .error {
