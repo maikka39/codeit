@@ -18,7 +18,14 @@
 <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
 
+<meta name="application-name" content="CodeIt">
+<meta name="theme-color" content="#ffffff">
+<link rel="manifest" href="site.webmanifest">
+
+
 <!-- Define apple stuff -->
+<meta name="apple-mobile-web-app-title" content="CodeIt">
+<link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#000000">
 <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
@@ -34,7 +41,8 @@
 
 <!-- Difine Microsoft stuff -->
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content="img/icons/ms-icon-310x310.png">
+<meta name="msapplication-config" content="browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
 <!-- Define property values -->
