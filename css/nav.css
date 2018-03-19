@@ -2,7 +2,7 @@
   Navigation bar
 */
 
-ul {
+.nav-list {
   padding: 0px;
   margin: 0px;
 }
@@ -22,17 +22,17 @@ nav {
   z-index: 100;
 }
 
-nav ul {
-  list-style: none;
+nav .nav-list {
+
 }
 
-nav ul li {
+nav .nav-list .nav-list-item {
   display: inline-block;
   position: relative;
 }
 
 .nav-bar {
-  list-style: none;
+
 }
 
 .nav-item {
@@ -129,7 +129,7 @@ nav ul li {
   Drop-menu in the navigation bar
 */
 
-.nav-bar ul li:hover>.nav-item {
+.nav-bar .nav-list .nav-list-item:hover>.nav-item {
   background: #2c2c2c;
   color: #ffffff;
 }
@@ -147,17 +147,18 @@ nav ul li {
   display: block;
 }
 
-.drop-menu li {
+.drop-menu .nav-list-item {
   display: block;
   background: #2c2c2c;
   text-align: center;
+  width: 100%;
 }
 
-.drop-menu li:last-child {
+.drop-menu .nav-list-item:last-child {
   border-radius: 0px 0px 5px 5px;
 }
 
-.drop-menu li:hover {
+.drop-menu .nav-list-item:hover {
   background: #606060;
 }
 
@@ -175,7 +176,7 @@ nav ul li {
   display: block;
 }
 
-/*nav ul li:hover > .drop-menu li {
+/*nav .nav-list .nav-list-item:hover > .drop-menu .nav-list-item {
   display: block;
 }*/
 
@@ -222,9 +223,9 @@ footer {
   margin-top: 6vh;
 }
 
-.footer-menu ul {
+.footer-menu .nav-list {
   display: inline-block;
-  list-style: none;
+
   width: 15vw;
   font-size: 1.5vw;
 }

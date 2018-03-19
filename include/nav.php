@@ -4,28 +4,28 @@
     <a href="/"><img src="/img/logo+text.png" alt="logo" width="125" height="50"></a>
   </div>
   <div class="nav-bar">
-    <ul>
-      <li><a class="nav-item" href="/">Home</a></li>
-      <li>
+    <div class="nav-list">
+      <div class="nav-list-item"><a class="nav-item" href="/">Home</a></div>
+      <div class="nav-list-item">
         <a class="nav-item" href="/catalog/">Catalog</a>
-        <ul class="drop-menu">
-          <li><a class="drop-menu-item" href="/catalog/#java">Java</a></li>
-          <li><a class="drop-menu-item" href="/catalog/#ruby">Ruby</a></li>
-          <li><a class="drop-menu-item" href="/catalog/#python">Python</a></li>
-          <li><a class="drop-menu-item" href="/catalog/#js">JavaScript</a></li>
-        </ul>
-      </li>
-      <li>
+        <div class="nav-list drop-menu">
+          <div class="nav-list-item"><a class="drop-menu-item" href="/catalog/#java">Java</a></div>
+          <div class="nav-list-item"><a class="drop-menu-item" href="/catalog/#ruby">Ruby</a></div>
+          <div class="nav-list-item"><a class="drop-menu-item" href="/catalog/#python">Python</a></div>
+          <div class="nav-list-item"><a class="drop-menu-item" href="/catalog/#js">JavaScript</a></div>
+        </div>
+      </div>
+      <div class="nav-list-item">
         <a class="nav-item" href="/about/">About Us</a>
-        <ul class="drop-menu">
-          <li><a class="drop-menu-item" href="/about/#about">About</a></li>
-          <li><a class="drop-menu-item" href="/about/#contact">Contact</a></li>
-        </ul>
-      </li>
-      <li>
+        <div class="nav-list drop-menu">
+          <div class="nav-list-item"><a class="drop-menu-item" href="/about/#about">About</a></div>
+          <div class="nav-list-item"><a class="drop-menu-item" href="/about/#contact">Contact</a></div>
+        </div>
+      </div>
+      <div class="nav-list-item">
         <button style="background: url('../usraccdata/profiles/placeholder/photo.png'); background-position: center; background-repeat: no-repeat; background-size: 100% 100%;" class="nav-item account-button" onclick="openLogin()"></button>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
   <div class="login-form" id="loginform">
     <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
