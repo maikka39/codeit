@@ -29,7 +29,7 @@
                   <div class="img"></div>
                   <!-- <img src="/img/home/pros/realcode2.png" alt="Foto" width="150px" height="150px"><br> -->
                   <strong>Real Code</strong>
-                    <p>No blocks to drag and drop but real code. This way you can learn codeing in more depth and understand how it really works.</p>
+                    <p>No blocks to drag and drop but real code. This way you can learn coding in more depth and understand how it really works.</p>
                 </div>
               </div>
               <div class="pam-item">
@@ -37,7 +37,7 @@
                   <div class="img"></div>
                   <!-- <img src="/img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                   <strong>Own Speed</strong>
-                    <p>Code at your own speed, no video tutorials that go way to fast. You choose how long you want to do someting and at what level!</p>
+                    <p>Code at your own speed, no video tutorials that go way to fast. You choose how long you want to do something and at what level!</p>
                 </div>
               </div>
               <div class="pam-item">
@@ -45,7 +45,7 @@
                   <div class="img"></div>
                   <!-- <img src="img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                   <strong>Educating</strong>
-                    <p>If you don't understand someting you can always contact our tutors. They are happy to help you whenever possible.</p>
+                    <p>If you don't understand something you can always contact our tutors. They are happy to help you whenever possible.</p>
                 </div>
               </div>
               <div class="pam-item">
@@ -69,7 +69,7 @@
                   <div class="img"></div>
                   <!-- <img src="/img/home/pros/placeholder.png" alt="Foto" width="150px" height="150px"><br> -->
                   <strong>No experience</strong>
-                  <p>You don't need any experience whatsoever! We will learn you al the basics to recreate most of the existing programs.</p>
+                  <p>You don't need any experience whatsoever! We will learn you all the basics to recreate most of the existing programs.</p>
                 </div>
               </div>
             </div>
