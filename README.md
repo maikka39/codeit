@@ -1,4 +1,4 @@
 # codeguage
-My "CodeItt!" website.
+My "CodeIt!" website.
 
 I'll edit this later :)
